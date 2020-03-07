@@ -1,0 +1,30 @@
+.mainTitle {
+  text-align: center;
+  border: thick double #32a1ce;
+}
+
+.buttonStyle {
+  -moz-box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+  box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+  background-color: #79bbff;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #84bbf3;
+  display: inline-block;
+  color: #ffffff;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0px #528ecc;
+}
+.buttonStyle:hover {
+  background-color: #378de5;
+}
+.buttonStyle:active {
+  position: relative;
+  top: 1px;
+}
